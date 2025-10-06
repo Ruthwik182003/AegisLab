@@ -73,6 +73,34 @@ This makes it an excellent hands-on project for understanding malware analysis, 
 
 ---
 
+## 🔮 Future Work & Enhancements
+
+While this project provides a strong foundation for malware detection and automated response, there are several ways to extend and enhance its capabilities:
+
+### 🧱 Technical Enhancements
+
+* **Multi-Source Threat Intelligence:** Integrate other APIs (e.g., AlienVault OTX, Hybrid Analysis) alongside VirusTotal.
+* **ELK Stack Integration:** Visualize malware detection metrics in real time using Elasticsearch, Logstash, and Kibana.
+* **Machine Learning Layer:** Use anomaly detection or clustering models to identify unknown or zero-day malware behaviors.
+* **Centralized Alert Management:** Forward Wazuh alerts to a SIEM aggregator like **TheHive** or **MISP** for correlation and triage.
+* **Email or Telegram Notifications:** Automatically notify administrators when a threat is detected or removed.
+
+### 🔒 Security Improvements
+
+* **Role-Based Access Control (RBAC):** Restrict dashboard access to specific users and groups.
+* **Encrypted Communication:** Enforce TLS between agents and the manager.
+* **Sandbox Analysis:** Detonate suspicious files in a controlled environment for deeper analysis before deletion.
+
+### 🧩 Research Extensions
+
+* Evaluate **Wazuh vs Splunk/QRadar/Graylog** for performance and accuracy.
+* Conduct comparative malware detection experiments using **different datasets**.
+* Develop a **real-time threat visualization dashboard** using Grafana or custom web tools.
+
+These enhancements would make the setup more robust, scalable, and research-ready for advanced cybersecurity projects.
+
+---
+
 ## 📘 Documentation
 
 Full setup and implementation guide is available in the main markdown file:
