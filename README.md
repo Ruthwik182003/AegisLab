@@ -105,7 +105,7 @@ These enhancements would make the setup more robust, scalable, and research-read
 
 Full setup and implementation guide is available in the main markdown file:
 
-> [Malware Analysis and SIEM Setup Guide](./Malware%20Analysis.md)
+> [Malware Analysis and SIEM Setup Guide](./Malware%20Analysis%20and%20SIEM%20Setup%20with%20Wazuh.md)
 
 ---
 
